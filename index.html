@@ -16,21 +16,31 @@
 </head>
 <body>
     <div class="container">
-        <div class="row">
-            <div class="col">
-                <div class="card h-100">
-                    <img src="img_BP1.jpg" class="card-img-top" alt="Buyer Persona 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Embudo de ventas para Buyer Persona 1</h5>
+        <div class="accordion" id="embudosAccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingBP1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBP1" aria-expanded="false" aria-controls="collapseBP1">
+                        Embudo de ventas para Buyer Persona 1
+                    </button>
+                </h2>
+                <div id="collapseBP1" class="accordion-collapse collapse" aria-labelledby="headingBP1" data-bs-parent="#embudosAccordion">
+                    <div class="accordion-body">
+                        <h2>Buyer Persona</h2>
+                        <img src="images/buyer_persona_1.jpg" alt="Buyer Persona 1" class="img-fluid mb-3">
                         <a href="interes.html" target="_blank" class="btn btn-danger">Ver embudo</a>
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="img_BP2.jpg" class="card-img-top" alt="Buyer Persona 2">
-                    <div class="card-body">
-                        <h5 class="card-title">Embudo de ventas para Buyer Persona 2</h5>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingBP2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBP2" aria-expanded="false" aria-controls="collapseBP2">
+                        Embudo de ventas para Buyer Persona 2
+                    </button>
+                </h2>
+                <div id="collapseBP2" class="accordion-collapse collapse" aria-labelledby="headingBP2" data-bs-parent="#embudosAccordion">
+                    <div class="accordion-body">
+                        <h2>Buyer Persona</h2>
+                        <img src="images/buyer_persona_2.jpg" alt="Buyer Persona 2" class="img-fluid mb-3">
                         <a href="interesBP2.html" target="_blank" class="btn btn-danger">Ver embudo</a>
                     </div>
                 </div>
