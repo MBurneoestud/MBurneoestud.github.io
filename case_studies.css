@@ -5,3 +5,67 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.navbar {
+    min-height: 80px !important;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+ 
+.navbar-brand {
+    font-size: 1.5rem !important;
+    font-weight: bold;
+}
+ 
+.navbar-toggler {
+    padding: 0.5rem 0.75rem !important;
+}
+ 
+.navbar-toggler-icon {
+    width: 1.5em !important;
+    height: 1.5em !important;
+}
+
+.header-section {
+    background-image: url('../projectimgs/deloitte.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    color: white;
+}
+
+.header-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.header-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+.header-section h1 {
+    margin-bottom: 1rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+.header-section p {
+    font-size: 2rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    text-align: justify;
+    text-align-last: center;
+}
+
+.header-section img {
+    display: none;
+}

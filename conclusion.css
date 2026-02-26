@@ -5,3 +5,23 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.navbar {
+    min-height: 80px !important;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+ 
+.navbar-brand {
+    font-size: 1.5rem !important;
+    font-weight: bold;
+}
+ 
+.navbar-toggler {
+    padding: 0.5rem 0.75rem !important;
+}
+ 
+.navbar-toggler-icon {
+    width: 1.5em !important;
+    height: 1.5em !important;
+}
