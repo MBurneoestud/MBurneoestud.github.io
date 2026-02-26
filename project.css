@@ -13,3 +13,7 @@ h1, h2, h3, h4, h5, h6 {
 .hero-section p {
     font-size: 2rem;
 }
+
+.topics-section p {
+    font-size: 1.2rem;
+}
